@@ -22,3 +22,15 @@ Le cours c'est au final pleins de petits exercices qui vous améneront, en les a
 - La PWA finalisés, optimisée et déployée tel que vous allez devoir la coder en exercice tout au long de ce cours se trouve [là-bas](https://duckduckgo.com).
 
 - Le totalité du code de la PWA dort bien confortablement :princess: [ici même](https://duckduckgo.com) dans l'attente d'être optimisé.
+
+## Ce dont vous aurez besoin
+
+Pour coder une PWA pas besoin d'une tonne d'outils, il vous faut juste:
+
+- Un browser (conseillé [Chrome](https://www.google.com/chrome/) surtout pour les outils de dévellopement tel que Lighthouse seuleument disponible sur celui-ci).
+
+- Un éditeur de code ou IDE (conseillé [Visual Studio Code](https://code.visualstudio.com/) aussi présent en solution totalement web [ici](https://vscode.dev/) si vous voulez).
+
+- Un accès internet (même si un tas de choses peuvent se faire hors lignes, c'est surout pour la doc :smile:)
+
+Facile non :interrobang:
