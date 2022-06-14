@@ -37,6 +37,6 @@ Facile non :interrobang:
 
 ## Juste avant de commencer
 
-Si vous avez des questions n'hésitez pas à demander autant à celui/celle qui vous donne le cours qu'à vos collègue mais aussi à la communauté :family:.
+Si vous avez des questions n'hésitez pas à demander autant à celui/celle qui vous donne le cours qu'à vos collègues mais aussi à la communauté :family:.
 
 Pour commencer c'est de [ce coté :arrow_right:]()
