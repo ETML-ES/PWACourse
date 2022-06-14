@@ -13,15 +13,15 @@ Le cours c'est au final pleins de petits exercices qui vous améneront, en les a
 
 - Tout le cours est présent sur Github et le point du chute est exactement là où vous vous trouvez !
 
-- la théorie se trouvent [ici](https://duckduckgo.com).
+- La théorie se trouvent [ici]().
 
-- Les slides de cette même théorie se trouve [là-haut](https://duckduckgo.com).
+- Les slides de cette même théorie se trouve [là-haut]().
 
-- Si vous êtes plutôt :pencil2: :closed_book: (le monde évolue les cocos) vous trouverer les slides en pdf [là](https://duckduckgo.com).
+- Si vous êtes plutôt :pencil2: :closed_book: (le monde évolue les cocos) vous trouverer les slides en pdf [là]().
 
-- La PWA finalisés, optimisée et déployée tel que vous allez devoir la coder en exercice tout au long de ce cours se trouve [là-bas](https://duckduckgo.com).
+- La PWA finalisés, optimisée et déployée tel que vous allez devoir la coder en exercice tout au long de ce cours se trouve [là-bas]().
 
-- Le totalité du code de la PWA dort bien confortablement :princess: [ici même](https://duckduckgo.com) dans l'attente d'être optimisé.
+- Le totalité du code de la PWA dort bien confortablement :princess: [ici même]() dans l'attente d'être optimisé.
 
 ## Ce dont vous aurez besoin
 
@@ -34,3 +34,9 @@ Pour coder une PWA pas besoin d'une tonne d'outils, il vous faut juste:
 - Un accès internet (même si un tas de choses peuvent se faire hors lignes, c'est surout pour la doc :smile:)
 
 Facile non :interrobang:
+
+## Juste avant de commencer
+
+Si vous avez des questions n'hésitez pas à demander autant à celui/celle qui vous donne le cours qu'à vos collègue mais aussi à la communauté :family:.
+
+Pour commencer c'est de [ce coté :arrow_right:]()
