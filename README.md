@@ -13,7 +13,7 @@ Le cours c'est au final pleins de petits exercices qui vous améneront, en les a
 
 - Tout le cours est présent sur Github et le point du chute est exactement là où vous vous trouvez !
 
-- La théorie se trouvent [ici](https://github.com/ETML-ES/PWACourse/blob/main/Partie1_BaseJS%2BOutilsDebug.md).
+- La théorie se trouvent [ici](https://github.com/ETML-ES/PWACourse/blob/main/Partie1_BaseJSOutilsDebug.md).
 
 - Les slides de cette même théorie se trouve [là-haut](https://etml-es.github.io/Theorie/Partie1_BaseJSOutilsDebug.html).
 
@@ -21,7 +21,7 @@ Le cours c'est au final pleins de petits exercices qui vous améneront, en les a
 
 - La PWA finalisés, optimisée et déployée tel que vous allez devoir la coder en exercice tout au long de ce cours se trouve [là-bas](https://etml-es.github.io/PWA).
 
-- Le totalité du code de la PWA dort bien confortablement :princess: [ici même](https://github.com/ETML-ES/ETML-ES.github.io) dans l'attente d'être optimisé.
+- Le totalité du code de la PWA dort bien confortablement :princess: [ici même](https://github.com/ETML-ES/ETML-ES.github.io/tree/main/PWA) dans l'attente d'être optimisé.
 
 ## Ce dont vous aurez besoin
 
@@ -39,4 +39,4 @@ Facile non :interrobang:
 
 Si vous avez des questions n'hésitez pas à demander autant à celui/celle qui vous donne le cours qu'à vos collègues mais aussi à la communauté :family:.
 
-Pour commencer c'est de [ce coté :arrow_right:]()
+Pour commencer c'est de [ce coté :arrow_right:](https://github.com/ETML-ES/PWACourse/blob/main/Partie1_BaseJSOutilsDebug.md)
