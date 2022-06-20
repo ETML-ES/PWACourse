@@ -7,14 +7,9 @@ paginate: true
 _paginate: false
 headingDivider: 2
 footer: 'ETML-ES / Base JS et outils de débuggage'
-header: ' [](https://github.com/NF01/mthw/blob/main/README.md)'
+header: ' [](https://github.com/NF01/mthw/blob/main/Partie1_BaseJSOutilsDebug.md)'
 size: 16:9
 -->
-
- <!-- 
- script to link to html to enable darkmode
- <script defer src="index.js"></script>
- -->
 
 <style>
 
@@ -41,7 +36,7 @@ section.align h1{
 }
 
 section p {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   font-family: 'Nunito', sans-serif;
 }
 
@@ -75,45 +70,9 @@ section a{
 }
 
 section li{
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   font-family: 'Nunito', sans-serif;
   
-}
-
-
-
-/* darkMode */
-
-section.darkmode p {
-  color: white
-}
-
-section.darkmode header a:nth-child(1):after{
-  font-size: 0.9rem;
-  font-family: 'icomoon', sans-serif;
-  content: "\eab0";
-  color: white;
-  opacity: 30%
-}
-
-section.darkmode header a:nth-child(2):after{
-  font-size: 0.9rem;
-  font-family: 'icomoon', sans-serif;
-  content: "\e9d6";
-  color: white;
-  opacity: 30%
-}
-section.darkmode h1{
-  color: white
-}
-section.darkmode{
-  background-color: #1C1C1C
-}
-section.darkmode code{
-  color: white
-}
-section.darkmode pre{
-  background-color: #1C1C1C
 }
 
 
@@ -129,9 +88,9 @@ Dans cette première partie nous allons nous concentrer sur les bases de JS pour
 
 # JS and the fabulous arrow function
 
-[![bg left](./images/arrowFunction.png)](https://www.north-47.com/knowledge-base/https-www-north-47-com-knowledge-base-difference-between-normal-and-arrow-functions/)
+[![bg right](./images/arrowFunction.png)](https://www.north-47.com/knowledge-base/https-www-north-47-com-knowledge-base-difference-between-normal-and-arrow-functions/)
 
-#
+---
 
 ### old one
 
@@ -178,7 +137,7 @@ console.log(myfunction(4, 3)); //output = hello world
 
 # Asynchronous code
 
-[![bg left](./images/eventLoop.webp)](https://geekflare.com/javascript-event-loops/)
+[![bg right](./images/eventLoop.webp)](https://geekflare.com/javascript-event-loops/)
 
 # Commençons par le commencement.
 
@@ -203,15 +162,19 @@ Jusqe là : normal.
 
 Sauf que Javascript est bien plus puissant que ça et cela grâce à son code asynchrone et à sa boucle d'événement (event loop).
 
-#
+---
+
+<!--backgroundColor: #ebebeb-->
 
 ### Event loop et code asynchrone
 
-[![bg left width:600px](./images/schemaEventLoop.jpg)](https://levelup.gitconnected.com/javascript-and-asynchronous-magic-bee537edc2da)
+[![bg right width:600px](./images/schemaEventLoop.jpg)](https://levelup.gitconnected.com/javascript-and-asynchronous-magic-bee537edc2da)
 
 À l'interne du runtime engine (ChromeV8) il y a les fonctions natives à ChromeV8 (exemple console.log). Cependant ChromeV8 va pouvoir se connecter à ce qu'on appelle des Web APIs qui elles seront asynchrones. Pour que cela marche ChromeV8 va envoyé la fonction ne faisant pas partie du coeur natif de l'engine (exemple setTimeout()) à la Web API dédiée. Quand la Web API aura finie de calculer la fonction elle va l'envoyer à la callback queue. Là rentre en jeu l'envent loop car son "seul" rôle sera d'envoyer les éléments de la queue à la stack.
 
 # Les prommeses
+
+<!--backgroundColor: white-->
 
 Les promesses sont la suite logique au code asynchrone, car elle seront **toujours asynchrone**. Elle vont comme leur nom l'indique vous faire une promesse de réponse. Vous recevrez une de ce trois réponses c'est certain.
 
@@ -257,13 +220,13 @@ Les outils de bébuggage sont tous présent dans la section inspection de votre 
 
 ![height:500px](./images/devtools1.JPG)
 
-#
+---
 
 La section "application" nous permettra d'utiliser la base de donnée côté client, le cache et le local storage (des noms qui vous seront expliqués plus tard)
 
 ![](./images/devtools2.JPG)
 
-#
+---
 
 La section "Lighthouse" (seuleument disponible sur Chrome) nous permettra de faire des audits de note PWA pour savoir si elle est côté celon les normes en vigeures.
 

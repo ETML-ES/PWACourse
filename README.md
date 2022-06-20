@@ -31,7 +31,11 @@ Pour coder une PWA pas besoin d'une tonne d'outils, il vous faut juste:
 
 - Un éditeur de code ou IDE (conseillé [Visual Studio Code](https://code.visualstudio.com/) aussi présent en solution totalement web [ici](https://vscode.dev/) si vous voulez).
 
+- Un terminal [bash](https://gitforwindows.org/) (pour ceux qui utilise windows)
+
 - Un accès internet (même si un tas de choses peuvent se faire hors lignes, c'est surout pour la doc :smile:)
+
+- Une bonne connaisance des langage HTML, CSS et JS
 
 Facile non :interrobang:
 
