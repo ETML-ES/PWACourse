@@ -1,3 +1,83 @@
+---
+marp: true
+---
+
+<!--
+paginate: true
+_paginate: false
+headingDivider: 2
+footer: 'ETML-ES / Intro PWA et Single Page App'
+header: ' [](https://github.com/ETML-ES/PWACourse/blob/main/Partie2_IntroPWASinglePageApp.md)'
+size: 16:9
+-->
+
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@600&display=swap');
+
+@font-face {
+  font-family: 'icomoon';
+  src: url('./fonts/icomoon.ttf') format('truetype');
+}
+
+
+section h1 {
+  font-size: 1.5rem;
+  font-family: 'Nunito';
+  color: black;
+  padding-bottom: 1rem;
+  padding-top:10px
+
+}
+
+section.align h1{
+  padding-bottom: 0.5rem
+}
+
+section p {
+  font-size: 0.7rem;
+  font-family: 'Nunito', sans-serif;
+}
+
+section footer {
+  font-size: 0.5rem;
+  font-family: 'Nunito', sans-serif;
+}
+
+
+section header a:nth-child(1):after{
+  font-size: 0.9rem;
+  font-family: 'icomoon', sans-serif;
+  content: "\eab0";
+  color: black;
+  opacity: 30%
+}
+
+
+section::after {
+  font-size: 1rem;
+  font-family: 'Nunito', sans-serif;
+}
+
+section code{
+  font-family: 'Red Hat Mono', monospace;
+  font-size: 5rem
+}
+
+section a{
+  color: #D10A11;
+}
+
+section li{
+  font-size: 0.7rem;
+  font-family: 'Nunito', sans-serif;
+  
+}
+
+
+</style>
+
 # Partie 2: Intoduction aux PWA et Single Page App
 
 Dans cette deuxime partie nous allons rentrer dans le vif du sujet. Après avoir vus quelques bases de JS qui nous aiderons à coder une PWA et que vous pourrez exercer tout au long du cours, nous allons nous concentrer sur ce qu'est une PWA et comment nous allons en coder une dit en "Single Page App".
