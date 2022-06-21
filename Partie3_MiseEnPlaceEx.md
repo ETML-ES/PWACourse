@@ -7,7 +7,7 @@ paginate: true
 _paginate: false
 headingDivider: 2
 footer: 'ETML-ES / Mise en place environement exercice'
-header: ' [](https://github.com/NF01/mthw/blob/main/Partie2_IntroPWASinglePageApp.md)'
+header: ' [](https://github.com/NF01/mthw/blob/main/Partie3_MiseEnPlaceEx.md)'
 size: 16:9
 -->
 
@@ -153,22 +153,7 @@ Dans cette partie nous allons commencer à mettre en place notre exercice qui co
 
 ---
 
-11. Vous devriez donc avoir votre browser d'ouvert avec une page blanche (puisque il n'y a rien dans le html pour l'instant) et si vous ouvrez la console de votre navigateur vous devrier apercevoir la sortie _42_ ( le console.log(42) de notre fichier _main.js_ ). Nous pouvons donc continuer.
-
-12. Il reste à mettre une feuille de style. Puisque le but de ce cours n'est pas de coder du CSS, [la feuille de style vous est donnée](). Bien évidement libre à vous de la changer à votre volonté. Si vous suivez les corrections données pendant tout le cours à la lettre (surtout pour les noms de classe et d'id) vous aurez le même rendu. Pour que cela fonctionne il faut rajouter ces quelques lignes dans la balise _head_ du doc HTML.
-
-```html
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link
-  href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap"
-  rel="stylesheet"
-/>
-<link
-  href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
-  rel="stylesheet"
-/>
-<link rel="stylesheet" href="./style/stylesheet.css" />
-```
+11. Vous devriez donc avoir votre browser d'ouvert avec une page blanche (puisque il n'y a rien dans le html pour l'instant) et si vous ouvrez la console de votre navigateur vous devrier apercevoir la sortie _42_ ( le console.log(42) de notre fichier _main.js_ ).
 
 # Ressources
 
@@ -178,7 +163,6 @@ Dans cette partie nous allons commencer à mettre en place notre exercice qui co
 
 # Exercice pratique n°1
 
-**INFO**: n'hésitez surtout pas à comprendre la CSS qui vous éguillera à coder votre HTML "correctememt".
 **DONNÉE**: le but de ce premier exercice pratique et de construire le squelette HTML de la page d'accueil de notre PWA.
 Comme dit précédemment nous allons créer une cinémathèque. Il faut donc créer:
 

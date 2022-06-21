@@ -5,13 +5,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="./style/stylesheet.css" />
     <script defer src="main.js"></script>
     <title>Ciné★thèque</title>
 </head>
+
+<style>
+    /* pour l'instant le css est directement présent dans le HTML */
+    .hidden {
+        display: none;
+    }
+</style>
 
 <body>
 
@@ -42,8 +45,8 @@
 
         <div id="home">
             <div class="content-image">
-                <button id="delete" data-action="delete">&#10005</button>
-                <img class="image" data-info="image" src="./assets/grave.jpg" alt="Grave">
+                <button id="delete">&#10005</button>
+                <img class="image" src="./assets/grave.jpg" alt="image du film Grave">
                 <div class="content">
                     <p class="title">Grave</p>
                     <span class="watching-date">
@@ -51,13 +54,13 @@
                         <span class="alphabetical-month">juillet</span>
                         <span class="year">2019</span>
                     </span>
-                    <span class="rating rating5"></span>
+                    <span class="rating">★★★</span>
                 </div>
             </div>
 
             <div class="content-image">
-                <button id="delete" data-action="delete">&#10005</button>
-                <img class="image" data-info="image" src="./assets/grave.jpg" alt="Grave">
+                <button id="delete">&#10005</button>
+                <img class="image" src="./assets/grave.jpg" alt="Grave">
                 <div class="content">
                     <p class="title">Grave</p>
                     <span class="watching-date">
@@ -65,13 +68,13 @@
                         <span class="alphabetical-month">juillet</span>
                         <span class="year">2019</span>
                     </span>
-                    <span class="rating rating5"></span>
+                    <span class="rating">★★★★</span>
                 </div>
             </div>
 
             <div class="content-image">
-                <button id="delete" data-action="delete">&#10005</button>
-                <img class="image" data-info="image" src="./assets/grave.jpg" alt="Grave">
+                <button id="delete">&#10005</button>
+                <img class="image" src="./assets/grave.jpg" alt="Grave">
                 <div class="content">
                     <p class="title">Grave</p>
                     <span class="watching-date">
@@ -79,7 +82,7 @@
                         <span class="alphabetical-month">juillet</span>
                         <span class="year">2019</span>
                     </span>
-                    <span class="rating rating5"></span>
+                    <span class="rating">★★</span>
                 </div>
             </div>
 

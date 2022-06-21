@@ -172,7 +172,7 @@ Sauf que Javascript est bien plus puissant que ça et cela grâce à son code as
 
 À l'interne du runtime engine (ChromeV8) il y a les fonctions natives à ChromeV8 (exemple console.log). Cependant ChromeV8 va pouvoir se connecter à ce qu'on appelle des Web APIs qui elles seront asynchrones. Pour que cela marche ChromeV8 va envoyé la fonction ne faisant pas partie du coeur natif de l'engine (exemple setTimeout()) à la Web API dédiée. Quand la Web API aura finie de calculer la fonction elle va l'envoyer à la callback queue. Là rentre en jeu l'envent loop car son "seul" rôle sera d'envoyer les éléments de la queue à la stack.
 
-# Les prommeses
+# Les promesses
 
 <!--backgroundColor: white-->
 
