@@ -1,6 +1,80 @@
-# Partie 2: Intoduction aux PWA et Single Page App
+---
+marp: true
+---
 
-Dans cette deuxime partie nous allons rentrer dans le vif du sujet. Après avoir vus quelques bases de JS qui nous aiderons à coder une PWA et que vous pourrez exercer tout au long du cours, nous allons nous concentrer sur ce qu'est une PWA et comment nous allons en coder une dit en "Single Page App".
+<!--
+paginate: true
+_paginate: false
+headingDivider: 2
+footer: 'ETML-ES / Introduction PWA'
+header: ' [](https://github.com/NF01/mthw/blob/main/Partie2_IntroPWASinglePageApp.md) '
+size: 16:9
+-->
+
+ <!-- 
+ script to link to html to enable darkmode
+ <script defer src="index.js"></script>
+ -->
+
+<style>
+
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@600&display=swap');
+@font-face {
+  font-family: 'icomoon';
+  src: url('./fonts/icomoon.ttf') format('truetype');
+}
+section h1 {
+  font-size: 1.5rem;
+  font-family: 'Nunito';
+  color: black;
+  padding-bottom: 1rem;
+  padding-top:10px
+}
+section.align h1{
+  padding-bottom: 0.5rem
+}
+
+section p {
+  font-size: 0.7rem;
+  font-family: 'Nunito', sans-serif;
+}
+
+section footer {
+  font-size: 0.5rem;
+  font-family: 'Nunito', sans-serif;
+}
+section header a:nth-child(1):after{
+  font-size: 0.9rem;
+  font-family: 'icomoon', sans-serif;
+  content: "\eab0";
+  color: black;
+  opacity: 30%
+}
+section::after {
+  font-size: 1rem;
+  font-family: 'Nunito', sans-serif;
+}
+section code{
+  font-family: 'Red Hat Mono', monospace;
+  font-size: 5rem
+}
+section a{
+  color: #D10A11;
+}
+
+section li{
+  font-size: 0.7rem;
+  font-family: 'Nunito', sans-serif;
+
+}
+
+</style>
+
+# Partie 2: Introduction aux PWA et Single Page App
+
+Dans cette deuxième partie, nous allons rentrer dans le vif du sujet. Après avoir vu quelques bases de JS qui nous aideront à coder une PWA et que vous pourrez exercer tout au long du cours, nous allons-nous concentrer sur ce qu'est une PWA et comment nous allons en coder une dit en "Single Page App".
 
 1. Qu'est-ce qu'une PWA (théoriquement parlant)
 2. Le challenge à réaliser
@@ -24,26 +98,26 @@ Une [PWA](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps) (pr
 
 [40 exemples de PWAs](https://www.tigren.com/examples-progressive-web-apps-pwa)
 
-# Le Challenge
+# Le challenge
 
 Pour ce cours, nous allons réaliser ensemble une PWA. Le challenge est d'arriver en fin de cours avec le même résultat que vous pouvez voir [ici même](https://etml-es.github.io/PWA). Nous allons donc créer une cinémathèque. Cette web application nous donnera la possibilité de:
 
-- Ajouter un film => une photo (l'affiche par exemple), une date (date de visionage par exemple), un nombre d'étoile (pour lui donner une note par exemple)
+- Ajouter un film => une photo (l'affiche par exemple), une date (date de visionnage par exemple), un nombre d'étoiles (pour lui donner une note par exemple)
 
 - Supprimer un film
 
 - Trier les films => par date, par étoile, par dernier ajout
 
-La PWA que vous réussirez à dévelloper sera fonctionelle et optimisée, elle pourrra donc être déployée (sur [Github Pages](https://pages.github.com/) par exemple) et sera donc installable en tant qu'application sur mobile et desktop.
+La PWA que vous réussirez à développer sera fonctionnelle et optimisée, elle pourra donc être déployée (sur [Github Pages](https://pages.github.com/) par exemple) et sera donc installable en tant qu'application sur mobile et desktop.
 
 Joli non :interrobang:
 
 # Single Page App
 
-Bienvenue à notre premier point théorique post bases de JS.
+Bienvenue à notre premier point théorique postbases de JS.
 Nous allons voir ce qu'est une Single Page App.
 
-L'idée principale d'une SPA et d'enrichir ou de supprimer les éléments du DOM de manière dynamique à l'interne d'une seule page chargée depuis le serveur. En soit, l'utilisateur fait une requête au serveur, le serveur lui renvoi l'application (ou le site) et, à partir de ce moment aucune autre requête ne sera faîte pour appeler **le design / squelette** de l'app. Il restera toujours le fait de faire appel au serveur de base de donnée pour appeler **les données / le contenu** de l'application mais tout le contenant sera déjà chargé et se modifiera dynamiquement sous l'action de l'utilisateur.
+L'idée principale d'une SPA et d'enrichir ou de supprimer les éléments du DOM de manière dynamique à l'interne d'une seule page chargée depuis le serveur. En soi, l'utilisateur fait une requête au serveur, le serveur lui renvoie l'application (ou le site) et, à partir de ce moment, aucune autre requête ne sera faite pour appeler **le design / squelette** de l'app. Il restera toujours le fait de faire appel au serveur de base de données pour appeler **les données / le contenu** de l'application, mais tout le contenant sera déjà chargé et se modifiera dynamiquement sous l'action de l'utilisateur.
 
 # Comment ça marche ?
 
@@ -75,8 +149,8 @@ L'idée principale d'une SPA et d'enrichir ou de supprimer les éléments du DOM
 
 ---
 
-Voilà un petit exemple de comment on load tout le squelette de l'app est on le fait voir ou pas à l'utilisateur quand il fait une action ou tout autres types d'événements.
+Voilà un petit exemple de comment on load tout le squelette de l'app est on le fait voir ou pas à l'utilisateur quand il fait une action ou tout autres type d'événements.
 
-Il reste un petit bémol aux SPA. Comment faire pour revenir en arriève si il n'y a qu'une seule page ? Les flèches du navigateur ne feront que vous ramener à la _page_ précédente et non pas à l'_état de la page_.
+Il reste un petit bémol aux SPA. Comment faire pour revenir en arrière s’il n'y a qu'une seule page ? Les flèches du navigateur ne feront que vous ramener à la _page_ précédente et non pas à l'_état de la page_.
 
-Nous allons donc voir dans la suite de ce cours notre toute première Web APi: celle qui nous pemettra de revenir en arriève même avec une Single Page App.
+Nous allons donc voir dans la suite de ce cours notre toute première Web APi: celle qui nous permettra de revenir en arrière même avec une Single Page App.
