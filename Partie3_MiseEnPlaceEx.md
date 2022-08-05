@@ -24,7 +24,7 @@ Dans cette partie, nous allons commencer à mettre en place notre exercice qui c
 7. Ajoutez dans la balise _head_ la ligne
 
    ```HTML
-   <script defer scr="main.js"><script>
+   <script defer src="main.js"><script>
    ```
 
    **Point théorique**: le mot clé _defer_ rend possible la déclaration de la balise _script_ dans la balise _head_ même si celle-ci se trouve au tout début du document HTML. Le chargement du script se fera quand même après le HTML. _defer_ agit de la même façon que si le script avait été déclaré à la fin du document HTML.

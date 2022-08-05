@@ -20,13 +20,13 @@ Une [PWA](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps) (pr
 
 [Google training PWA](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps)
 
-[Introduction aux web APIs / MDN](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps)
+[Introduction aux web APIs / MDN](https://developer.mozilla.org/en-US/docs/Web/API)
 
 [40 exemples de PWAs](https://www.tigren.com/examples-progressive-web-apps-pwa)
 
 # Le challenge
 
-Pour ce cours, nous allons réaliser ensemble une PWA. Le challenge est d'arriver en fin de cours avec le même résultat que vous pouvez voir [ici même](https://etml-es.github.io/PWA). Nous allons donc créer une cinémathèque. Cette web application nous donnera la possibilité de:
+Pour ce cours, nous allons réaliser ensemble une PWA. Le challenge est d'arriver en fin de cours avec le même résultat que vous pouvez voir [ici même](https://etml-es.github.io). Nous allons donc créer une cinémathèque. Cette web application nous donnera la possibilité de:
 
 - Ajouter un film => une photo (l'affiche par exemple), une date (date de visionnage par exemple), un nombre d'étoiles (pour lui donner une note par exemple)
 
@@ -49,28 +49,28 @@ L'idée principale d'une SPA et d'enrichir ou de supprimer les éléments du DOM
 
 ```html
 <!DOCTYPE html>
-<style>
+<html>
+  <style>
     .hidden {
-        display: none;
+      display: none;
     }
-</style>
-<body>
+  </style>
+  <body>
     <button id="toogle">toogle</button>
     <section id="section1">
-        <p>Je suis visible dès le début</p>
+      <p>Je suis visible dès le début</p>
     </section>
     <section id="section2" class="hidden">
-        <p>Je suis caché au début du chargement</p>
+      <p>Je suis caché au début du chargement</p>
     </section>
-</body>
-<script>
+  </body>
+  <script>
     document.querySelector("#toogle").addEventListener("click", (evt) => {
-        document.querySelector("#section2").classList.toggle("hidden");
-        document.querySelector("#section1").classList.toggle("hidden");
+      document.querySelector("#section2").classList.toggle("hidden");
+      document.querySelector("#section1").classList.toggle("hidden");
     });
-</script>
+  </script>
 </html>
-
 ```
 
 ---

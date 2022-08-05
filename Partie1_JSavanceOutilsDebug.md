@@ -51,8 +51,6 @@ console.log(myfunction(4, 3)); //output = hello world
 
 [MDN docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
 
-[47N article, difference between arrow function and normal function](https://medium.com/dailyjs/es6-arrow-functions-cheatsheet-3d42cfe17d72)
-
 [Medium article, cheatsheet arrow function](https://medium.com/dailyjs/es6-arrow-functions-cheatsheet-3d42cfe17d72)
 
 # Asynchronous code
